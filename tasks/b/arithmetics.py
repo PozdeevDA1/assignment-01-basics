@@ -30,6 +30,34 @@ z = get_float()
 
 print(x, y, z)  # вывести три числа через пробел
 
-# Место для вашего кода
+#a#
+a=x+y+z
+print (a)
 
-FLOATS = ...
+#b#
+b=x*y*z
+print(b)
+
+#c#
+c=x*y
+print(int(c)+1)
+
+#d#
+print(x/z)
+
+#e#
+print(x//z)
+
+#f#
+print(x%z)
+
+#g#
+print(y**z)
+
+#h#
+print(((x+y)*(y+z)*(x+z)**3))
+
+#i#
+print(round(z,5))
+
+FLOATS = 8

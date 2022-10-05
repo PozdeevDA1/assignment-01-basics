@@ -21,10 +21,41 @@
 from tests.common.context import get_integer
 
 n = get_integer()
-a = ...
+a = [0] * n
+
+for i in range(n):
+    a[i] = get_integer()
+print(a)
+
 
 # Место для вашего кода (заполнение массива)
 
-print(a)
+#a#
+print(a[0], a[len(a) // 2 - 1], a[-1])
 
+#b#
+print(max(a), min(a))
+
+#c#
+print(sum(a))
+
+#d#
+s = []
+for el in a:
+    if el % 2 == 0:
+        s.append(el ** 2)
+print(s)
+
+#e#
+print(a.index(min(a)))
+
+#f#
+print(a[::-1])
+
+#g#
+b = []
+for i in range(len(a)):
+    if i % 2 == 0:
+        b.append(a[i])
+print(b)
 # Место для вашего кода

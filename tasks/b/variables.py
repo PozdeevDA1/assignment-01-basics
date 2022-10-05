@@ -11,4 +11,13 @@
 
 # Место для вашего кода
 
+
+#строку можно умножать только на тип int#
+int_var = 4
+float_var = 67 ** 0.5
+str_var = '#just_a_hashtag'
+p1 = str_var * int_var
+p2 = float_var * int_var
+p3 = str_var * int_var
+p4 = float_var * float_var
 print(p1, p2, p3, p4, sep='\n')

@@ -20,4 +20,31 @@ s = get_string()
 
 print(x, y, s)
 
-# Место для вашего кода
+
+#a#
+if x==y:
+    print(0)
+else:
+    print(abs(x-y)-1)
+
+
+#b#
+k=0
+if x==1:
+    print(k)
+else:
+    while x>1:
+        if x%2==0:
+            x=x//2
+            k=k+1
+        else:
+            x=3*x+1
+            k=k+1
+print(k)
+
+#c#
+k = 0
+for i in s:
+    if i in ['a', 'e', 'i', 'o', 'u']:
+        k =k+ 1
+print(k)
